@@ -1,4 +1,5 @@
 pyhf
+uproot
 bqplot
 ipympl
 ipyvolume

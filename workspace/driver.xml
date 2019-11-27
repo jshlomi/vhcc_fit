@@ -1,0 +1,18 @@
+<!DOCTYPE Combination  SYSTEM 'HistFactorySchema.dtd'>
+
+<Combination OutputFilePrefix="output">
+
+<Input>Region_BMax250_BMin150_Y6051_DSR_T1_L1_distmBB_J2.xml</Input>
+<Input>Region_BMax250_BMin150_Y6051_DSR_T1_L1_distmBB_J3.xml</Input>
+<Input>Region_BMax250_BMin150_Y6051_DSR_T2_L1_distmBB_J2.xml</Input>
+<Input>Region_BMax250_BMin150_Y6051_DSR_T2_L1_distmBB_J3.xml</Input>
+<Input>Region_BMin250_Y6051_DSR_T1_L1_distmBB_J2.xml</Input>
+<Input>Region_BMin250_Y6051_DSR_T1_L1_distmBB_J3.xml</Input>
+<Input>Region_BMin250_Y6051_DSR_T2_L1_distmBB_J2.xml</Input>
+<Input>Region_BMin250_Y6051_DSR_T2_L1_distmBB_J3.xml</Input>
+
+<Measurement Name="VH" Lumi="1" LumiRelErr="0.0001" ExportOnly="True">
+<POI>SigXsecOverSM </POI>
+<ParamSetting Const="True">Lumi </ParamSetting>
+</Measurement>
+</Combination>
